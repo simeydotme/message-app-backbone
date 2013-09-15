@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Message App</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr.js"></script>
+
+  </head>
+
+  <body>
+
+
+    <nav class="navbar navbar-inverse navbar-static-top navbar-green" role="navigation">
+
+      <div class="navbar-header">
+
+        <h1><a href="#" class="navbar-brand">Message App</a></h1>
+      
+        <div class="navbar-user pull-right">
+          
+          <div class="btn-group">
+            
+            <button type="button" class="btn btn-link" data-toggle="dropdown">
+              <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu pull-right" role="menu">
+              <li><a href="#"><i class="glyphicon glyphicon-cog"></i> Settings</a></li>
+              <li class="divider"></li>
+              <li><a href="#"><i class="glyphicon glyphicon-log-out"></i> Logout</a></li>
+            </ul>
+
+          </div>
+
+          <img class="navbar-avatar" src="http://a1.twimg.com/profile_images/109055916/AshKetchum7_bigger.gif">
+        
+        </div>
+
+      </div>
+
+    </nav>
+
+
+
+
+
+    <div class="container-fluid">
+
+      <div class="row">
+      
+        <section class="col-md-3 col-sm-4 msg-container msg-folders">
+          <div class="msg-inner">
+
+            <ul class="list-unstyled">
+              <li><a href="#">New</a></li>
+              <li><a href="#">Processed</a></li>
+              <li><a href="#">Saved</a></li>
+            </ul>
+
+          </div>
+        </section>
+
+
+        <!-- Add the extra clearfix for only the required viewport -->
+        <div class="clearfix visible-xs"></div>
+        <!-- Add the extra clearfix for only the required viewport -->
+        <hr class="divider visible-xs">
+
+
+        <section class="col-md-4 col-sm-8 msg-container msg-messages">
+          <div class="msg-inner">
+
+            <table class="table table-condensed table-hover table-borderless">
+
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">subject</th>
+                </tr>
+              </thead>
+              
+              <!-- backbone renders the template/message.item.tmpl -->
+
+            </table>            
+
+          </div>
+        </section>
+
+
+        <!-- Add the extra clearfix for only the required viewport -->
+        <div class="clearfix visible-sm visible-xs"></div>
+        <!-- Add the extra clearfix for only the required viewport -->
+        <hr class="divider visible-sm visible-xs">
+
+
+        <section class="col-md-5 col-sm-12 msg-container msg-message">
+          <div class="msg-inner"> 
+
+          <!-- backbone renders the template/message.single.tmpl -->
+          
+          </div>
+        </section>
+
+      </div>
+
+
+    </div>
+
+
+  <!-- /body -->
+  <!-- -------------------------------------------------------------- -->
+
+    <script src="js/helpers/console.js"></script>
+    <script src="js/loader.js"></script>
+
+  </body>
+
+</html>

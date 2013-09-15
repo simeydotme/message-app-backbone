@@ -1,0 +1,62 @@
+<div class="panel-group" id="message-details">
+  <div class="panel panel-default">
+    
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#messageDetails">
+      <p class="panel-title pull-left">
+        #{{id}} / {{subject}}
+      </p>
+      <i class="glyphicon glyphicon-chevron-down pull-right"></i>
+      <span class="clearfix"></span>
+    </div>
+
+    <div id="messageDetails" class="panel-collapse collapse">
+      <div class="panel-body">
+          <ul class="list-unstyled">
+            <li><strong>to</strong>: <a href="#">{{to}}</a></li>
+            <li><strong>from</strong>: <a href="#">{{from}}</a></li>
+            <li><strong>date</strong>: {{date}}</li>
+          </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="msg-options">
+
+    <!-- <div class="panel panel-default">
+      <div class="panel-body form-inline">
+        <div class="row">
+          
+          <div class="form-group col-md-4">
+            <label for="ddlGift">Gift</label>
+            <select class="form-control" id="ddlGift" name="ddlGift">
+              <option>1</option>
+            </select>
+          </div>
+
+          <div class="form-group col-md-4">
+            <label for="ddlGift">Gift</label>
+            <select class="form-control" id="ddlGift" name="ddlGift">
+              <option>1</option>
+            </select>
+          </div>
+
+        </div>
+      </div>
+    </div> -->
+
+</div>
+
+
+<div class="msg-body">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <p>{{message}}</p>
+      <hr>
+      <button class="btn btn-sm btn-primary">Mark as Processed</button>
+      <button class="btn btn-sm btn-default">Mark as New</button>
+      <button class="btn btn-sm btn-default">Save</button>
+    </div>
+  </div>
+</div>

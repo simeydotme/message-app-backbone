@@ -1,0 +1,59 @@
+
+  body { 
+    font-family: "Lato", Helvetica, Arial, sans-serif; 
+  }
+
+
+  .container-fluid {
+    width: auto;
+    margin: 20px;
+  }
+
+
+
+  .msg-container {
+    .msg-inner {
+      border-radius: 3px;
+      background: #eee;
+      padding: 10px;
+    }
+  }
+
+  .msg-folders {
+
+  }
+
+  .msg-messages {
+
+    tr th,
+    tr td { cursor: pointer; }
+
+  }
+
+  .msg-message {
+
+    .panel {
+
+      margin-bottom: 10px;
+
+      .panel-heading { 
+        cursor: pointer; 
+
+        .glyphicon { 
+          position: relative;
+          top: 5px;
+        }
+
+      }
+
+    }
+
+
+  }
+
+
+
+
+
+
+

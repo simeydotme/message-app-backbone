@@ -1,0 +1,51 @@
+{{#if type}}
+
+  {{#ifCond type "==" "grass"}}
+
+    <td>
+      <i class="glyphicon glyphicon-leaf"></i>
+      <span class="sr-only">Grass</span>
+    </td>
+
+  {{/ifCond}}
+
+  {{#ifCond type "==" "electric"}}
+
+    <td>
+      <i class="glyphicon glyphicon-flash"></i>
+      <span class="sr-only">Electric</span>
+    </td>
+
+  {{/ifCond}}
+
+  {{#ifCond type "==" "fire"}}
+
+    <td>
+      <i class="glyphicon glyphicon-fire"></i>
+      <span class="sr-only">Fire</span>
+    </td>
+
+  {{/ifCond}}
+
+  {{#ifCond type "==" "water"}}
+
+    <td>
+      <i class="glyphicon glyphicon-tint"></i>
+      <span class="sr-only">Water</span>
+    </td>
+
+  {{/ifCond}}
+
+{{/if}}
+
+{{#unless type}}
+
+  <td><span class="sr-only">No Type</span></th>
+
+{{/unless}}
+
+<th scope="row">
+  <a href="#" data-toggle="tooltip" title="to: {{to}}">
+    {{subject}}
+  </a>
+</th>

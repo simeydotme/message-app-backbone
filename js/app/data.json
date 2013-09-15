@@ -1,0 +1,42 @@
+{"data": [
+  {
+    "id": "1",
+    "to": "misty@cerulean.city",
+    "from": "ash.ketchum@pallet.town",
+    "subject": "Fire",
+    "date": "2/2/2016",
+    "status": "new",
+    "type": "fire",
+    "message": "I wanna be the very best!"
+  },
+  {
+    "id": "2",
+    "to": "brock_the_breeder@pewter.city",
+    "from": "ash.ketchum@pallet.town",
+    "subject": "Water",
+    "date": "1/1/2012",
+    "status": "processed",
+    "type": "water",
+    "message": "Like no one ever was!!"
+  },
+  {
+    "id": "3",
+    "to": "professorOAK@theLab.org",
+    "from": "ash.ketchum@pallet.town",
+    "subject": "Electric",
+    "date": "3/3/2012",
+    "status": "saved",
+    "type": "electric",
+    "message": "To catch them is my real test!!!"
+  },
+  {
+    "id": "4",
+    "to": "gary-smells-85@pallet.town",
+    "from": "ash.ketchum@pallet.town",
+    "subject": "Grass",
+    "date": "4/4/2012",
+    "status": "saved",
+    "type": "grass",
+    "message": "TO TRAIN THEM IS MY CAUSE!!!!"
+  }
+]}

@@ -1,0 +1,75 @@
+  
+  $navSize: 50px;
+  $navPadding: $navSize/10;
+  $navBG: #009e86;
+
+
+
+.navbar {
+
+  min-height: $navSize;
+
+  &.navbar-green {
+
+    background: $navBG; 
+    color: white;
+    border-color: darken($navBG,4%);
+
+    .navbar-header {
+
+      float: none;
+
+      h1 { font-size: 1em; margin: 0; }
+
+      .navbar-brand {
+        color: rgba(255,255,255,0.7);
+        font-family: 'Dancing Script', cursive;
+        font-size: 2em;
+        -webkit-transition: color 0.2s; transition: color 1s;
+        &:hover { color: rgba(255,255,255,1); }
+      }
+
+      .navbar-user {
+
+        padding: $navPadding;
+
+        .caret { 
+          border-top-color: white; 
+        }
+
+        .navbar-avatar {
+          max-height: $navSize - ( $navPadding*2 );
+          max-width: $navSize - ( $navPadding*2 );
+          border-radius: 4px;
+        }
+
+
+        .dropdown-menu {
+
+          padding: 0;
+          border-color: desaturate(lighten($navBG,30%),70%);
+
+          > li {
+            > a {
+
+              padding: 8px;
+
+              > .glyphicon { margin: 0 8px; }
+              &:hover,
+              &:focus { background: $navBG; }
+            }
+          }
+
+          .divider {
+            margin: 0;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
